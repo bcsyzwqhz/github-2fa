@@ -10,7 +10,7 @@
 
 1. 安装python
 2. 安装`pyotp`与`pyperclip`
-3. 双击运行
+3. 更改Token并运行
 
 ### 写在最后
 欢迎大家通过Issue与Pull request来改进本程序！
