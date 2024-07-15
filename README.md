@@ -9,8 +9,10 @@
 为保证账号安全，请使用者自行编译
 
 1. 安装python
-2. 安装`pyotp`与`pyperclip`
-3. 更改Token并运行
+2. 下载Release中的压缩包
+3. 解压，并将自己的Token粘贴至`2fa-token.txt`中
+4. 运行`build.bat`
+5. 拷贝dist文件夹中的`.exe`文件，当需要2FA验证时，双击运行即可。程序会自动复制验证码，直接粘贴即可。
 
 ### 写在最后
 欢迎大家通过Issue与Pull request来改进本程序！
