@@ -3,4 +3,5 @@
 *spec
 *.zip
 *.exe
+*.py
 /.vscode

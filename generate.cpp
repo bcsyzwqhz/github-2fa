@@ -4,9 +4,6 @@ using namespace std;
 int main()
 {
     ofstream fout("main.py");
-    ios::sync_with_stdio(0);
-    cin.tie(0);cout.tie(0);
-    fout.tie(0);
     string token;
     cout<<"Paste your authentication token here:";
     cin>>token;
