@@ -1,5 +1,5 @@
 import pyotp
 import pyperclip as cp
-secret_key = 'A7JU6JT73G44RSVK'
+secret_key = 'AUTOGENERATE1145'
 cp.copy(pyotp.TOTP(secret_key).now())
 print(cp.paste())
