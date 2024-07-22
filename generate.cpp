@@ -8,6 +8,7 @@ int main()
     cout<<"Paste your authentication token here:";
     cin>>token;
     cout<<endl<<"Generating...";
+    fout<<"# These codes are auto generate, don't move it."<<endl;
     fout<<"import pyotp"<<endl;
     fout<<"import pyperclip as cp"<<endl;
     fout<<"secret_key = \'"<<token<<"\'\n";
