@@ -15,7 +15,7 @@ int main()
     fout<<"cp.copy(pyotp.TOTP(secret_key).now())"<<endl;
     fout<<"print(cp.paste())";
     fout.close();
-    system(".\build.bat");
+    system("build.bat");
     cout<<endl<<"Finished!";
     return 0;
 }
